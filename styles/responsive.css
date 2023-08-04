@@ -1,0 +1,530 @@
+/* extra small device */
+@media (max-width: 280px) {
+  /* global css */
+  .title p {
+    font-size: 11px;
+  }
+  .title h2 {
+    font-size: 18px;
+  }
+
+  /* *********** */
+  /* banner section start */
+  .banner .bannerText {
+    padding: 0 0 80px;
+    width: 100%;
+    text-align: center;
+  }
+  .banner .bannerText h1 {
+    font-size: 20px;
+  }
+  .banner .bannerText p {
+    font-size: 11px;
+  }
+  .banner .banner-btn {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .banner .bannerText .banner-btn .btn-primary {
+    font-size: 14px;
+    padding: 10px 14px;
+    margin: 0 0 20px 0;
+  }
+  .banner .bannerText .banner-btn .btn-secondary {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+  /* recommend section start */
+  .recommend .recommend-items .item {
+    margin: 0 0 20px;
+  }
+  .recommend .recommend-items .item .name {
+    font-size: 12px;
+  }
+  .recommend .recommend-items .item .price {
+    font-size: 8px;
+  }
+  .recommend .recommend-btn .btn-info {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  /* sale section start */
+  .sale .inner-sale {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sale p {
+    width: 100%;
+    margin: 0 0 16px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .sale .btn-info {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  /* collection section start */
+  .collection .inner-collection .off-sale .card .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .collection .inner-collection .off-sale .card .card-text P:first-child {
+    font-size: 12px;
+    margin: 0 0 6px;
+  }
+  .collection .inner-collection .off-sale .card .card-text p:last-child {
+    font-size: 8px;
+  }
+  .collection .inner-collection .on-sale .card .card-head p:first-child {
+    font-size: 12px;
+  }
+  .collection .inner-collection .on-sale .card .card-head p:last-child {
+    font-size: 12px;
+  }
+  .collection .inner-collection .on-sale .card .card-text p:first-child {
+    font-size: 14px;
+  }
+  .collection .inner-collection .on-sale .card .card-text p:last-child {
+    font-size: 12px;
+  }
+  .collection .collection-btn .btn-info {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  /* trend section start */
+  .trend .inner-trend .card .card-body {
+    padding: 0;
+  }
+  .trend .inner-trend .card .card-body .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 12px 0;
+  }
+  .trend .inner-trend .card .card-body .card-text P:first-child {
+    font-size: 10px;
+    /* float: left; */
+    margin: 0 0 10px;
+  }
+  .trend .inner-trend .card .card-body .card-text P:last-child {
+    font-size: 8px;
+  }
+  /* footer section start */
+  .footer p {
+    width: 100%;
+    margin: 0 0 40px 0;
+  }
+  .footer ul:last-child {
+    width: 100%;
+  }
+  .footer ul {
+    width: 100%;
+    margin: 0 0 40px;
+    padding: 0;
+  }
+}
+
+/* sm devices */
+@media (min-width: 281px) and (max-width: 481px) {
+  /* global css */
+  .title p {
+    font-size: 11px;
+  }
+  .title h2 {
+    font-size: 18px;
+  }
+
+  /* *********** */
+  /* banner section start */
+  .banner .bannerText {
+    padding: 40px 0 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .banner .bannerText h1 {
+    font-size: 22px;
+  }
+  .banner .bannerText p {
+    font-size: 12px;
+    width: 80%;
+    margin: 0 auto 30px;
+  }
+  .banner .banner-btn {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .banner .bannerText .banner-btn .btn-primary {
+    font-size: 14px;
+    padding: 10px 14px;
+    margin: 0 0 20px 0;
+  }
+  .banner .bannerText .banner-btn .btn-secondary {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+  /* recommend section start */
+  .recommend .recommend-items .item {
+    margin: 0 0 20px;
+  }
+  .recommend .recommend-items .item .name {
+    font-size: 14px;
+  }
+  .recommend .recommend-items .item .price {
+    font-size: 10px;
+  }
+  .recommend .recommend-btn .btn-info {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  /* sale section start */
+  .sale .inner-sale {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sale p {
+    width: 100%;
+    margin: 0 0 16px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .sale .btn-info {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  /* collection section start */
+  .collection .inner-collection .off-sale .card .card-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .collection .inner-collection .off-sale .card .card-text P:first-child {
+    font-size: 12px;
+  }
+  .collection .inner-collection .off-sale .card .card-text p:last-child {
+    font-size: 8px;
+  }
+  .collection .inner-collection .on-sale .card .card-head p:first-child {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+  .collection .inner-collection .on-sale .card .card-head p:last-child {
+    font-size: 12px;
+  }
+  .collection .inner-collection .on-sale .card .card-text p:first-child {
+    font-size: 14px;
+  }
+  .collection .inner-collection .on-sale .card .card-text p:last-child {
+    font-size: 12px;
+  }
+  .collection .collection-btn .btn-info {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  /* trend section start */
+  .trend .inner-trend .card .card-body {
+    padding: 0;
+  }
+  .trend .inner-trend .card .card-body .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 12px 0;
+  }
+  .trend .inner-trend .card .card-body .card-text P:first-child {
+    font-size: 12px;
+    /* float: left; */
+    margin: 0 0 10px;
+  }
+  .trend .inner-trend .card .card-body .card-text P:last-child {
+    font-size: 10px;
+  }
+  /* footer section start */
+  .footer p {
+    width: 100%;
+    margin: 0 0 40px 0;
+  }
+  .footer ul:last-child {
+    width: 100%;
+  }
+  .footer ul {
+    width: 100%;
+    margin: 0 0 40px;
+    padding: 0;
+  }
+}
+
+/* md device */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* global css */
+  .title p {
+    font-size: 12px;
+  }
+  .title h2 {
+    font-size: 20px;
+  }
+
+  /* *********** */
+  /* banner section start */
+  .banner .bannerText {
+    padding: 40px 0 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .banner .bannerText h1 {
+    font-size: 25px;
+  }
+  .banner .bannerText p {
+    font-size: 13px;
+    width: 70%;
+    margin: 0 auto 30px;
+  }
+  .banner .banner-btn {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .banner .bannerText .banner-btn .btn-primary {
+    font-size: 14px;
+    padding: 10px 14px;
+    margin: 0 0 20px 0;
+  }
+  .banner .bannerText .banner-btn .btn-secondary {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+  /* recommend section start */
+  .recommend .recommend-items .item {
+    margin: 0 0 20px;
+  }
+  .recommend .recommend-items .item .name {
+    font-size: 15px;
+  }
+  .recommend .recommend-items .item .price {
+    font-size: 12px;
+  }
+  .recommend .recommend-btn .btn-info {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  /* sale section start */
+  .sale .inner-sale {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sale p {
+    width: 100%;
+    margin: 0 0 16px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .sale .btn-info {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  /* collection section start */
+  .collection .inner-collection .off-sale .card .card-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .collection .inner-collection .off-sale .card .card-text P:first-child {
+    font-size: 14px;
+  }
+  .collection .inner-collection .off-sale .card .card-text p:last-child {
+    font-size: 10px;
+  }
+  .collection .inner-collection .on-sale .card .card-head p:first-child {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+  .collection .inner-collection .on-sale .card .card-head p:last-child {
+    font-size: 12px;
+  }
+  .collection .inner-collection .on-sale .card .card-text p:first-child {
+    font-size: 20px;
+  }
+  .collection .inner-collection .on-sale .card .card-text p:last-child {
+    font-size: 14px;
+  }
+  .collection .collection-btn .btn-info {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  /* trend section start */
+  .trend .inner-trend .card .card-body {
+    padding: 0;
+  }
+  .trend .inner-trend .card .card-body .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 12px 0;
+  }
+  .trend .inner-trend .card .card-body .card-text P:first-child {
+    font-size: 12px;
+    /* float: left; */
+    margin: 0 0 10px;
+  }
+  .trend .inner-trend .card .card-body .card-text P:last-child {
+    font-size: 10px;
+  }
+  /* footer section start */
+  .footer p {
+    width: 100%;
+    margin: 0 0 40px 0;
+  }
+  .footer ul:last-child {
+    width: 100%;
+  }
+  .footer ul {
+    width: 100%;
+    margin: 0 0 40px;
+    padding: 0;
+  }
+}
+
+/* lg device */
+@media (min-width: 767px) and (max-width: 1024px) {
+  /* global css */
+  .title p {
+    font-size: 14px;
+  }
+  .title h2 {
+    font-size: 28px;
+  }
+
+  /* *********** */
+  /* banner section start */
+  .banner .bannerText {
+    padding: 80px 0;
+    width: 100%;
+    text-align: left;
+  }
+  .banner .bannerText h1 {
+    font-size: 35px;
+  }
+  .banner .bannerText p {
+    font-size: 14px;
+    width: 50%;
+  }
+  .banner .banner-btn {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .banner .bannerText .banner-btn .btn-primary {
+    font-size: 14px;
+    padding: 12px 16px;
+    margin: 0 20px 0 0;
+  }
+  .banner .bannerText .banner-btn .btn-secondary {
+    font-size: 14px;
+    padding: 12px 16px;
+  }
+  /* recommend section start */
+  .recommend .recommend-items .item {
+    margin: 0 0 20px;
+  }
+  .recommend .recommend-items .item .name {
+    font-size: 15px;
+  }
+  .recommend .recommend-items .item .price {
+    font-size: 12px;
+  }
+  .recommend .recommend-btn .btn-info {
+    font-size: 12px;
+    padding: 12px 20px;
+  }
+  /* sale section start */
+  .sale .inner-sale {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sale p {
+    font-size: 20px;
+    text-align: left;
+    width: 72%;
+  }
+  .sale .btn-info {
+    font-size: 14px;
+    padding: 12px 40px;
+  }
+  /* collection section start */
+  .collection .inner-collection .off-sale .card .card-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .collection .inner-collection .off-sale .card .card-text P:first-child {
+    font-size: 10px;
+  }
+  .collection .inner-collection .off-sale .card .card-text p:last-child {
+    font-size: 10px;
+  }
+  .collection .inner-collection .on-sale .card img {
+    width: 59%;
+  }
+  .collection .inner-collection .on-sale .card .card-head p:first-child {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+  .collection .inner-collection .on-sale .card .card-head p:last-child {
+    font-size: 12px;
+  }
+  .collection .inner-collection .on-sale .card .card-text p:first-child {
+    font-size: 18px;
+  }
+  .collection .inner-collection .on-sale .card .card-text p:last-child {
+    font-size: 14px;
+  }
+  .collection .collection-btn .btn-info {
+    font-size: 14px;
+    padding: 12px 30px;
+  }
+  /* trend section start */
+  .trend .inner-trend .card .card-body {
+    padding: 0;
+  }
+  .trend .inner-trend .card .card-body .card-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+  }
+  .trend .inner-trend .card .card-body .card-text P:first-child {
+    font-size: 12px;
+  }
+  .trend .inner-trend .card .card-body .card-text P:last-child {
+    font-size: 10px;
+  }
+  /* footer section start */
+  .footer .logo {
+    margin: 0 0 16px;
+    text-align: center;
+  }
+  .footer p {
+    width: 100%;
+    margin: 0 0 40px 0;
+  }
+  .footer ul:last-child {
+    width: 100%;
+  }
+  .footer ul {
+    width: 100%;
+    margin: 0 0 40px;
+    padding: 0;
+  }
+}
