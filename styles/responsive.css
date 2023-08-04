@@ -53,12 +53,12 @@
   /* sale section start */
   .sale .inner-sale {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
   .sale p {
-    margin: 0 0 16px;
+    margin: 0 0 0px;
     font-size: 14px;
     text-align: left;
   }
@@ -192,7 +192,7 @@
     align-items: center;
   }
   .sale p {
-    margin: 0 0 16px;
+    margin: 0 0 0px;
     font-size: 14px;
     text-align: left;
   }
@@ -326,7 +326,7 @@
     align-items: center;
   }
   .sale p {
-    margin: 0 0 16px;
+    margin: 0 0 0px;
     font-size: 18px;
     text-align: left;
   }

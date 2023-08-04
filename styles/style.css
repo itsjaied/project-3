@@ -34,7 +34,101 @@ body p {
 /* *********** */
 
 /* header section start */
-
+.header {
+  width: 100%;
+  background-color: #fff;
+}
+.header-top {
+  padding: 20px 0;
+}
+.header-top .search {
+  margin: 8px 0 0;
+}
+.header-top .search .form-control {
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  padding: 12px 20px;
+  border-right: 0px;
+  border: 1px solid #efefef;
+}
+.header-top .search .btn-info {
+  background-color: transparent;
+  border: 1px solid #efefef;
+  border-left: 0px;
+  padding: 12px 20px;
+}
+.header-top .search .btn-info:hover {
+  color: #fff;
+  background-color: #ff4f04;
+  border: 1px solid #ff4f04;
+  border-left: 0px;
+  padding: 12px 20px;
+}
+.header-top ul {
+  float: right;
+  margin: 18px 0 0;
+  padding: 0;
+}
+.header-top ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px 0;
+  position: relative;
+}
+.header-top ul li a {
+  color: #000;
+}
+.header-top ul li a:hover {
+  color: #ff4f04;
+}
+.header-top ul li small {
+  font-family: 'Heebo', sans-serif;
+  font-size: 10px;
+  padding: 0px 4px;
+  width: 15px;
+  height: 15px;
+  line-height: 16px;
+  border-radius: 100%;
+  color: #fff;
+  background-color: #ff4f04;
+  position: absolute;
+  top: 0%;
+  /* right: 0%; */
+  left: 77%;
+}
+/* header-bottom */
+.header-bottom .navbar .navbar-nav .nav-item:not(:last-child) {
+  margin: 0 50px 0 0;
+}
+.header-bottom .dropdown .btn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  background-color: #efefef;
+  padding: 12px 20px;
+  border: 1px solid #efefef;
+}
+.header-bottom .dropdown .btn:hover {
+  background-color: #ff4f04;
+  border: 1px solid #ff4f04;
+  color: #fff;
+}
+.header-bottom .dropdown .btn .fa-bars {
+  margin: 0 20px 0 0;
+  font-size: 16px;
+}
+.header-bottom .dropdown .btn span {
+  padding: 0 50px 0 0;
+}
+.header-bottom .navbar .navbar-nav .nav-item .nav-link {
+  font-family: 'Roboto', sans-serif;
+}
+.header-bottom .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #ff4f04;
+}
 /* banner section start */
 .banner {
   padding: 100px 0;
