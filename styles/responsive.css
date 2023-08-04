@@ -13,7 +13,7 @@
   .banner .bannerText {
     padding: 0 0 80px;
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   .banner .bannerText h1 {
     font-size: 20px;
@@ -23,13 +23,14 @@
   }
   .banner .banner-btn {
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    gap: 10px;
   }
   .banner .bannerText .banner-btn .btn-primary {
     font-size: 14px;
     padding: 10px 14px;
-    margin: 0 0 20px 0;
+    margin: 0 0 0px 0;
   }
   .banner .bannerText .banner-btn .btn-secondary {
     font-size: 14px;
@@ -57,9 +58,11 @@
     align-items: center;
   }
   .sale p {
-    width: 100%;
     margin: 0 0 16px;
     font-size: 14px;
+    text-align: left;
+  }
+  .sale .sale-btn {
     text-align: center;
   }
   .sale .btn-info {
@@ -141,27 +144,27 @@
   /* *********** */
   /* banner section start */
   .banner .bannerText {
-    padding: 40px 0 40px;
+    padding: 0 0 40px;
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   .banner .bannerText h1 {
     font-size: 22px;
   }
   .banner .bannerText p {
     font-size: 12px;
-    width: 80%;
-    margin: 0 auto 30px;
+    width: 90%;
   }
   .banner .banner-btn {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
   }
   .banner .bannerText .banner-btn .btn-primary {
     font-size: 14px;
     padding: 10px 14px;
-    margin: 0 0 20px 0;
+    margin: 0 0 0 0;
   }
   .banner .bannerText .banner-btn .btn-secondary {
     font-size: 14px;
@@ -184,15 +187,17 @@
   /* sale section start */
   .sale .inner-sale {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
   .sale p {
-    width: 100%;
     margin: 0 0 16px;
     font-size: 14px;
-    text-align: center;
+    text-align: left;
+  }
+  .sale .sale-btn {
+    text-align: right;
   }
   .sale .btn-info {
     font-size: 12px;
@@ -275,7 +280,7 @@
   .banner .bannerText {
     padding: 40px 0 40px;
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   .banner .bannerText h1 {
     font-size: 25px;
@@ -283,17 +288,17 @@
   .banner .bannerText p {
     font-size: 13px;
     width: 70%;
-    margin: 0 auto 30px;
   }
   .banner .banner-btn {
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    gap: 10px;
   }
   .banner .bannerText .banner-btn .btn-primary {
     font-size: 14px;
     padding: 10px 14px;
-    margin: 0 0 20px 0;
+    margin: 0 0 0px 0;
   }
   .banner .bannerText .banner-btn .btn-secondary {
     font-size: 14px;
@@ -316,15 +321,17 @@
   /* sale section start */
   .sale .inner-sale {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
   .sale p {
-    width: 100%;
     margin: 0 0 16px;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
+  }
+  .sale .sale-btn {
+    text-align: right;
   }
   .sale .btn-info {
     font-size: 14px;
