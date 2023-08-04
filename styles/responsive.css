@@ -9,7 +9,29 @@
   }
 
   /* *********** */
+  /* resposive header section start */
+  .header {
+    display: none;
+  }
+  .banner .header-bottom {
+    display: block;
+    background-color: #fff;
+    margin: 0 0 80px;
+  }
+  .header-bottom .navbar {
+    padding: 0;
+  }
+  .banner .header-bottom .navbar-toggler {
+    border: 0px;
+  }
+  .banner .header-bottom .navbar-toggler .fa-bars {
+    color: #ff4f04;
+  }
+
   /* banner section start */
+  .banner {
+    padding: 0 0 100px;
+  }
   .banner .bannerText {
     padding: 0 0 80px;
     width: 100%;
@@ -20,6 +42,7 @@
   }
   .banner .bannerText p {
     font-size: 11px;
+    width: 100%;
   }
   .banner .banner-btn {
     display: inline-flex;
@@ -142,7 +165,29 @@
   }
 
   /* *********** */
+
+  /* resposive header section start */
+  .header {
+    display: none;
+  }
+  .banner .header-bottom {
+    display: block;
+    background-color: #fff;
+    margin: 0 0 80px;
+  }
+  .header-bottom .navbar {
+    padding: 0;
+  }
+  .banner .header-bottom .navbar-toggler {
+    border: 0px;
+  }
+  .banner .header-bottom .navbar-toggler .fa-bars {
+    color: #ff4f04;
+  }
   /* banner section start */
+  .banner {
+    padding: 0 0 100px;
+  }
   .banner .bannerText {
     padding: 0 0 40px;
     width: 100%;
@@ -276,7 +321,30 @@
   }
 
   /* *********** */
+
+  /* resposive header section start */
+  .header {
+    display: none;
+  }
+  .banner .header-bottom {
+    display: block;
+    background-color: #fff;
+    margin: 0 0 80px;
+  }
+  .header-bottom .navbar {
+    padding: 0;
+  }
+  .banner .header-bottom .navbar-toggler {
+    border: 0px;
+  }
+  .banner .header-bottom .navbar-toggler .fa-bars {
+    color: #ff4f04;
+  }
+
   /* banner section start */
+  .banner {
+    padding: 0 0 100px;
+  }
   .banner .bannerText {
     padding: 40px 0 40px;
     width: 100%;
@@ -410,7 +478,30 @@
   }
 
   /* *********** */
+
+  /* resposive header section start */
+  .header {
+    display: none;
+  }
+  .banner .header-bottom {
+    display: block;
+    background-color: #fff;
+    margin: 0 0 80px;
+  }
+  .header-bottom .navbar {
+    padding: 0;
+  }
+  .banner .header-bottom .navbar-toggler {
+    border: 0px;
+  }
+  .banner .header-bottom .navbar-toggler .fa-bars {
+    color: #ff4f04;
+  }
+
   /* banner section start */
+  .banner {
+    padding: 0 0 100px;
+  }
   .banner .bannerText {
     padding: 80px 0;
     width: 100%;
